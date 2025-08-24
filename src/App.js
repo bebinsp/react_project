@@ -67,7 +67,7 @@ function App() {
   const getBackground = () => {
     if (selectedRecipe) return "/details-bg.jpg";
     if (showResults) return "/results-bg.jpg";
-    return "/home-bg.jpg";
+    return "/Home-bg.jpg";
   };
 
   return (
